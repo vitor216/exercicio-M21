@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <title>O Hobbit</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/Logo-hobbit.png" alt="hobbit">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secundary">Inscreva-se</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/capafilme01.png.jpg" alt="Capa do dvd do filme">
+                    <button class="button">Compre o Filme</button>
+                    <span class="text">R$ 45,90/mês*</span>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/capalivro.png" alt="capa do livro">
+                    <button class="button">Compre o Livro</button>
+                    <span class="text">R$ 90,90/mês*</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="shows">
+        <h1 class="shows__title title">personagens</h1>
+        <nav class="shows__tabs">
+            <button data-tab-button="Hobbit" class="shows__tabs__button shows__tabs__button--is-active">
+                hobbit
+            </button>
+            <button data-tab-button="Anoes" class="shows__tabs__button">
+                Anões
+            </button>
+            <button data-tab-button="Magos" class="shows__tabs__button">
+                magos
+            </button>
+            <button data-tab-button="Elfos" class="shows__tabs__button">
+                Elfos
+            </button>
+            <button data-tab-button="Orcs" class="shows__tabs__button">
+                Orcs
+            </button>
+        </nav>
+        <ul data-tab-id="Hobbit" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/hobbit/bilbo01.png" alt="bilbo01">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/hobbit/bilbo02.png" alt="bilbo02">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/hobbit/bilbo03.png" alt="bilbo03">
+            </li>
+        </ul>
+        <ul data-tab-id="Anoes" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao01.png" alt="obi_wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao02.png" alt="bluey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao03.png" alt="cavaleiro">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao04.png" alt="incrivel">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao05.png" alt="red">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao06.png" alt="tudo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao07.png" alt="tudo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao08.png" alt="tudo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao09.png" alt="tudo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao10.png" alt="tudo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/anoes/anao11.png" alt="tudo">
+            </li>
+        </ul>
+        <ul data-tab-id="Magos" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/gandalf/gandalf01.png" alt="gandalf01">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/gandalf/gandalf02.png" alt="gandalf02">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/gandalf/gandalf03.png" alt="gandalf03">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/gandalf/gandalf04.png" alt="gandalf04">
+            </li>
+        </ul>
+        <ul data-tab-id="Elfos" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/Elfos/elfo01.png" alt="elfo01">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/Elfos/elfo02.png" alt="elfo02">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/Elfos/elfo03.png" alt="elfo03">
+            </li>
+        </ul>
+        <ul data-tab-id="Orcs" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/orcs/azog01.png" alt="Orcs01">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/orcs/orcs01.png" alt="Orcs02">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/orcs/orcs02.png" alt="Orcs03">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/orcs/orcs03.png" alt="Orcs04">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/orcs/orcs04.png" alt="Orcs05">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/orcs/orcs05.png" alt="Orcs06">
+            </li>
+        </ul>
+    </section>
+    <section class="Sobre">
+        <h2 class="title--big">Sobre os Filmes</h2>
+        <ul class="Sobre__list">
+            <li class="Sobre__list__item">
+                <img src="./dist/images/filmes/filme01.png" alt="filme01">
+                <p class=" titulo title--small">Uma Jornada Inesperada</p>
+                <p class="text--big">
+                    acompanha Bilbo Bolseiro (Martin Freeman) que vive uma vida pacata no condado, como a maioria dos hobbits. Um dia, aparece em sua porta o mago Gandalf, o cinzento (Ian McKellen), que lhe promete uma aventura como nunca antes vista. Na companhia de vários anões, Bilbo e Gandalf iniciam sua jornada inesperada pela Terra Média. Eles têm por objetivo libertar o reino de Erebor, conquistado há tempos pelo dragão Smaug e que antes pertencia aos anões. No meio do caminho encontram elfos, trolls e, é claro, a criatura Gollum (Andy Serkis) e seu precioso anel.
+                </p>
+            </li>
+            <li class="Sobre__list__item">
+                <img src="./dist/images/filmes/filme02.png" alt="filme02">
+                <p class=" titulo title--small">A Desolação de Smaug</p>
+                <p class="text--big">
+                    Após iniciar sua jornada ao lado de um grupo de anões e de Gandalf (Ian McKellen), Bilbo Bolseiro (Martin Freeman) segue em direção à Montanha Solitária, onde deverá ajudar seus companheiros de missão a retomar a Pedra de Arken, que fará com que Thorin  (Richard Armitage) obtenha o respeito de todos os anões e o apoio na luta para retomar seu reino. O problema é que o artefato está perdida em meio a um tesouro protegido pelo temido dragão Smaug (voz de Benedict Cumberbatch). Ao mesmo tempo, Gandalf investiga uma nova força sombria que surge na Terra Média.
+                </p>
+            </li>
+            <li class="Sobre__list__item">
+                <img src="./dist/images/filmes/filme03.png" alt="filme03">
+                <p class=" titulo title--small">A Batalha dos Cinco Exércitos</p>
+                <p class="text--big">
+                    Após ser expulso da montanha de Erebor, o dragão Smaug ataca com fúria a cidade dos homens que fica próxima ao local. Após muita destruição, Bard (Luke Evans) consegue derrotá-lo. Não demora muito para que a queda de Smaug se espalhe, atraindo os mais variados interessados nas riquezas que existem dentro de Erebor. Entretanto, Thorin (Richard Armitage) está disposto a tudo para impedir a entrada de elfos, anões e orcs, ainda mais por ser tomado por uma obsessão crescente pela riqueza à sua volta. Paralelamente a estes eventos, Bilbo Bolseiro (Martin Freeman) e Gandalf (Ian McKellen) tentam impedir a guerra.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section ">
+        <img src="./dist/images/destaque04.png" alt="imagem">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Curiosidades</h2>
+            <p class="text--big">
+                O anão Bifur tem um machado preso em sua cabeça, o que não consta no livro. Guillermo Del Toro, co-escritor da obra para a película, adicionou como um trocadilho para “BIFURcado” (ou dividido em dois).
+            </p><br>
+            <p class="text--big">
+                A língua dos anões, chamada Khuzdul, foi criada por Tolkien baseando-se no Hebraico e em outras línguas semitas. E, assim como os antigos judeus, os anões são um grupo sem sua pátria.
+            </p><br>
+            <p class="text--big">
+                Três dos 13 anões aparecem no primeiro filme, A Irmandade do Anel: Glóin está presente no Conselho de Elrond; Em Moria, a Irmandade encontra a tumba de Balin, com os restos mortais de ORI, carregando seu livro, ao lado do túmulo.
+            </p><br>
+            <p class="text--big">
+                Os dois filmes do O Hobbit custaram mais do que toda a trilogia do Senhor dos Anéis. Praticamente o dobro: US$ 561M contra os US$ 281M para a Guerra do Anel.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/destaques/hobbit.png"/>
+            <img src="./dist/images/destaques/hobbit.png" alt="hobbit">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Trilha Sonora</h2>
+            <p class="text--big">
+                A trilha sonora do filme The Hobbit: An Unexpected Journey foi lançada em 14 de dezembro de 2012.[2] Ele foi lançado em edição padrão e edição especial, com ambos chegando em formato de dois discos. A edição especial dupla da trilha sonora contém quatro faixas bônus em relação à edição padrão dupla. A lista completa foi divulgada em novembro de 2012 — a ordem das faixas respeita o desenrolar do filme.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/Logo-hobbit.png" alt="hobbit">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="globo do mundo">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e acondições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de Privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios Personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos Compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2023 Hobbit Todos os direitos reservados.
+            </p>
+            <p class="text--small">
+                O hobbit é um serviço pago, baseado em compra e informações e sujeito a termos e condições.
+            </p>
+        </div>
+    </footer>
+    <script src="./src/main.js"></script>
+</body>
+</html>
